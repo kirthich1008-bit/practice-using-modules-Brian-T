@@ -32,13 +32,25 @@ let dayton = new CityData("Dayton",78,"Partly cloudy, breezy","20%");
 const cityName = argv.city.toLowerCase();
 
 if (cityName === "new york") {
-    console.log(newYork);
+    console.log(chalk.bold.blue(`City Name: ${newYork.name}`));
+    console.log(chalk.bold.blue(`Temperature: ${newYork.temp}`));
+    console.log(chalk.bold.blue(`Weather Description: ${newYork.description}`));
+    console.log(chalk.bold.blue(`Chance of Percipitation: ${newYork.percipitation}`));
 } else if (cityName === "phoenix") {
-        console.log(phoenix);
+        console.log(chalk.bold.green(phoenix.name));
+        console.log(chalk.bold.green(phoenix.temp));
+        console.log(chalk.bold.green(phoenix.description));
+        console.log(chalk.bold.green(phoenix.percipitation));
     } else if (cityName === "kansas city") {
-        console.log(kansasCity);
+        console.log(chalk.bold.yellow(kansasCity.name));
+        console.log(chalk.bold.yellow(kansasCity.temp));
+        console.log(chalk.bold.yellow(kansasCity.description));
+        console.log(chalk.bold.yellow(kansasCity.percipitation));
     } else if (cityName === "dayton") {
-        console.log(dayton);
+        console.log(chalk.bold.red(dayton.name));
+        console.log(chalk.bold.red(dayton.temp));
+        console.log(chalk.bold.red(dayton.description));
+        console.log(chalk.bold.red(dayton.percipitation));
     } else {
         console.log(`${cityName} not found.`);
     }
