@@ -69,7 +69,7 @@ if (cityName === "new york") {
 // 2.Why node_modules should not be included in version control:
 // Whenever we install yargs chalks dependencies for our project the node_module file will be automatically created which consists of source code files 
 // which support the environtment but they in thousands in number so when we try to commit it git it needs a lot of memory to store those files and 
-// the version control creates conflicts. In order to avoid that massive storage which is not necessary we create .gitignore file where we mention 
+// the version control creates bloat and can cause conflicts. In order to avoid that massive storage which is not necessary we create .gitignore file where we mention 
 // to ignore node_modules folder during commit.
 
 
