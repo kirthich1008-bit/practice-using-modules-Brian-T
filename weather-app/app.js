@@ -74,7 +74,7 @@ if (cityName === "new york") {
 
 
 
-// 3.How npm install reinstalls dependencies: 
+// 3.How npm install reinstalls dependencies and its importance in collaborative projects: 
 // when we remove the node_module folder of our project which supports our application and again when we try to run command "npm install" in our terminal 
 // it creates the new "node_module" folder where npm reads our existing "package.json" file  of our project /application and it fetches the exact same data of 
 // our dependecies and their exact versions. It directly downloads all packages into our newly created node_modules folder which makes our project to run smoothly 
