@@ -1,7 +1,3 @@
-// import yargs from "yargs";
-// import { hideBin } from "yargs/helpers";
-// import chalk from "chalk";
-
 const yargs = require('yargs');
 const chalk = require('chalk');
 const { hideBin } = require('yargs/helpers');
@@ -37,26 +33,24 @@ if (cityName === "new york") {
     console.log(chalk.bold.blue(`Weather Description: ${newYork.description}`));
     console.log(chalk.bold.blue(`Chance of Percipitation: ${newYork.percipitation}`));
 } else if (cityName === "phoenix") {
-        console.log(chalk.bold.green(phoenix.name));
-        console.log(chalk.bold.green(phoenix.temp));
-        console.log(chalk.bold.green(phoenix.description));
-        console.log(chalk.bold.green(phoenix.percipitation));
+        console.log(chalk.bold.green(`City Name: ${phoenix.name}`));
+        console.log(chalk.bold.green(`Temperature: ${phoenix.temp}`));
+        console.log(chalk.bold.green(`Weather Description: ${phoenix.description}`));
+        console.log(chalk.bold.green(`Chance of Percipitation: ${phoenix.percipitation}`));
     } else if (cityName === "kansas city") {
-        console.log(chalk.bold.yellow(kansasCity.name));
-        console.log(chalk.bold.yellow(kansasCity.temp));
-        console.log(chalk.bold.yellow(kansasCity.description));
-        console.log(chalk.bold.yellow(kansasCity.percipitation));
+        console.log(chalk.bold.yellow(`City Name: ${kansasCity.name}`));
+        console.log(chalk.bold.yellow(`Temperature: ${kansasCity.temp}`));
+        console.log(chalk.bold.yellow(`Weather Description: ${kansasCity.description}`));
+        console.log(chalk.bold.yellow(`Chance of Percipitation: ${kansasCity.percipitation}`));
     } else if (cityName === "dayton") {
-        console.log(chalk.bold.red(dayton.name));
-        console.log(chalk.bold.red(dayton.temp));
-        console.log(chalk.bold.red(dayton.description));
-        console.log(chalk.bold.red(dayton.percipitation));
+        console.log(chalk.bold.red(`City Name: ${dayton.name}`));
+        console.log(chalk.bold.red(`Temperature: ${dayton.temp}`));
+        console.log(chalk.bold.red(`Weather Description: ${dayton.description}`));
+        console.log(chalk.bold.red(`Chance of Percipitation: ${dayton.percipitation}`));
     } else {
         console.log(`${cityName} not found.`);
     }
 
-
-// console.log(chalk.bold.yellow(`Weather Summary: ${cityName}`));
 
 
 
