@@ -59,7 +59,7 @@ if (cityName === "new york") {
 // the main purpose of this file is to: 
 // 1.Describe the project (name, version, metadata).
 // 2.keep track of dependencies(yargs, chalk) and their versions.
-// 3.speify scripts for automating tasks.
+// 3.specify scripts for automating tasks.
 // 4.ensure consist builds across environments.
 // This package.json file is important because whenever we are installing "node module" npm updates the "dependencies" section in package.json file.
 // This ensures that whoever clones the project that is manily in collaboration it makes sure that who ever runs "npm install" in their own terminal
